@@ -98,7 +98,7 @@ const handleSubmit = async (e) => {
 
   // fetch bot response
 
-  const response = await fetch('https://chatbot-p26g.onrender.com', {
+  const response = await fetch('https://chatbot-p26g.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
